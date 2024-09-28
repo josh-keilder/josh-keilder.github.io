@@ -1,5 +1,6 @@
 ```mermaid
 flowchart TD
+  Start[[Start]] --> End([End])
   Start([Welcome to the Guessing game!]) --> Begin[The game will now begin]
   Begin --> RandomNumber[Generate Random number]
   RandomNumber --> Input[The user may guess a number]
