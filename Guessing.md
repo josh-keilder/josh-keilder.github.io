@@ -15,7 +15,7 @@ flowchart TD
   Win --> End([The game will now end. Thanks for playing])
 ```
 
-## Description
+## Game Description
   The game first starts by welcoming the player and beginning the game by generating a number.
   After it generates a number, it then prompts the player to guess what that number is.
   Then it goes through a few processes to check the user's input
