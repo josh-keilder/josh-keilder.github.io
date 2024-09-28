@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
   Start[Welcome to the Guessing game!] --> Begin[The game will now begin]
   Begin --> RandomNumber{Generate Random number]
@@ -8,7 +9,7 @@ flowchart TD
   CheckCorrect -- Too High --> HighNumber[Your number is too high!] --> Input
   CheckCorrect -- Too Low --> LowNumber[Your number is too low!] --> Input
   CheckCorrect -- CorrectNumber --> Win[You Win! --> End[End]
-
+```
 
 
 
