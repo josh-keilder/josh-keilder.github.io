@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
   Start([Welcome to the Guessing game!]) --> Begin[The game will now begin]
-  Begin --> RandomNumber{Generate Random number]
+  Begin --> RandomNumber[Generate Random number]
   RandomNumber --> Input[The user may guess a number]
   Input --> IsNumber{Is the input a number?}
   IsNumber -- Yes --> CheckCorrect{Is the number correct?}
